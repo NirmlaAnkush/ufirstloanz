@@ -507,3 +507,6 @@ input.form-control {
     margin-right: 2%;
     padding-top: 3%;
 }
+img {
+    pointer-events: none;
+}
