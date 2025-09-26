@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/ufirstloaanz-icon" href="/ufirstloanz-icon.ico">
+
+    <!-- Bootstrap CSS & other styles -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Term Loan | U First Loan</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+
+    <div id="topnav" class="sticky-top"></div>
+    <div id="header"></div>
+    <div id="dropdown"></div>
+
+    <main class="container py-4">
+        <section class="mb-5">
+            <span class="pill">Term Loan</span>
+            <h2 class="mt-3 mb-3">Empower Your Business with Flexible Term Loans</h2>
+            <p class="lead">Get a lump sum with fixed repayments—ideal for expansion, equipment purchase, or long-term projects. Our term loans offer competitive rates, transparent process, and tailored solutions for your business growth.</p>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <ul>
+                        <li><strong>Loan Amount:</strong> ₹1 lakh to ₹10 crore</li>
+                        <li><strong>Tenure:</strong> 12 to 120 months</li>
+                        <li><strong>Interest Rate:</strong> Attractive & fixed/variable options</li>
+                        <li><strong>Repayment:</strong> Monthly EMIs or custom schedules</li>
+                        <li><strong>Processing:</strong> Fast approval, minimal paperwork</li>
+                    </ul>
+                    <a href="#apply" class="btn btn-brand mt-3">Apply Now</a>
+                </div>
+                <div class="col-md-5 shadow p-3 mb-5 bg-white rounded">
+                    <img src="../img/loans/Term-Loan (2).webp" alt="Term Loan" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="mb-5">
+            <div class="card p-4">
+                <h3>Why Choose Term Loan?</h3>
+                <ul>
+                    <li>Structured repayments for easy budgeting</li>
+                    <li>Ideal for business expansion, asset purchase, or project funding</li>
+                    <li>Competitive interest rates and flexible terms</li>
+                    <li>Expert guidance from application to disbursal</li>
+                    <li>No hidden charges</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="eligibility" class="mb-5">
+            <div class="card p-4">
+                <h3>Eligibility Criteria</h3>
+                <ul>
+                    <li>Indian businesses with minimum 2 years vintage</li>
+                    <li>Valid business registration and KYC documents</li>
+                    <li>Stable income and satisfactory credit profile</li>
+                    <li>Bank statements and financials as required</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="apply" class="mb-5">
+            <div class="card p-4">
+                <h3>Apply for a Term Loan</h3>
+                <form action="https://formsubmit.co/ufirstloanz@gmail.com" method="POST">
+                <!-- Honeypot -->
+                    <input type="text" name="_honey" style="display:none">
+                 <!-- Disable Captcha -->
+                    <input type="hidden" name="_captcha" value="false" style="display:none">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Full Name" required name="Name" autocomplete="name">
+                    </div>
+                    <div class="mb-3">
+                        <input type="tel" class="form-control" placeholder="10 digit Number" required name="Contact Number" pattern="[0-9]{10}" autocomplete="tel">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Email (optional)" name="Email" autocomplete="email">
+                    </div>
+                    <div class="mb-3">
+                        <input type="address" class="form-control" placeholder="Address" name="Address" autocomplete="address">
+                    </div>
+                    <div class="mb-3">
+                        <select class="form-select" required name="Term Loan Purpose">
+                            <option value="">Loan Purpose</option>
+                            <option>Business Expansion</option>
+                            <option>Equipment Purchase</option>
+                            <option>Purchase machinery</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-brand" type="submit">Submit Application</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="faq" class="mb-5">
+            <div class="card p-4">
+                <h3>Frequently Asked Questions</h3>
+                <ul>
+                    <li><strong>What is a term loan?</strong> <br>A term loan is a lump sum loan repaid over a fixed period with regular installments.</li>
+                    <li><strong>Who can apply?</strong> <br>Businesses, professionals, and entrepreneurs meeting eligibility criteria.</li>
+                    <li><strong>How fast is the approval?</strong> <br>Most applications are processed within 48 hours, subject to documentation.</li>
+                    <li><strong>Is collateral required?</strong> <br>Both secured and unsecured options available, depending on profile.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <!-- floating button -->
+    <div class="floating-container">
+      <a href="#"><button class="floating-button"><img src="/img/icons/up-arrows.png" alt=""></button></a>
+    </div>
+
+    <div id="footer"></div>
+    <div id="modal"></div>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/app.js"></script>
+    <script src="../js/seemore.blog.js"></script>
+    <script>
+      // Load header, footer, modal, dropdown dynamically
+      $(function(){
+        $("#topnav").load("top-nav.html");
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+        $("#modal").load("modal.html");
+        $("#dropdown").load("choose-product-dropdown.html");
+      });
+    </script>
+</body>
+</html>

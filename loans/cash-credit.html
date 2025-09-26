@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/ufirstloaanz-icon" href="/ufirstloanz-icon.ico">
+
+    <!-- Bootstrap CSS & other styles -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Cash Credit | U First Loan</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+
+    <div id="topnav" class="sticky-top"></div>
+    <div id="header"></div>
+    <div id="dropdown"></div>
+
+    <main class="container py-4">
+        <section class="mb-4">
+            <span class="pill">Cash Credit</span>
+            <h2 class="mt-3 mb-3">Manage Your Working Capital with Cash Credit Facility</h2>
+            <p class="lead">Get access to revolving credit for your business needs. Withdraw funds as required, pay interest only on the amount utilized, and ensure smooth operations with flexible limits and easy renewals.</p>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <ul>
+                        <li><strong>Limit:</strong> ₹1 lakh to ₹5 crore</li>
+                        <li><strong>Tenure:</strong> Up to 12 months (renewable)</li>
+                        <li><strong>Interest Rate:</strong> Competitive, charged on utilized amount</li>
+                        <li><strong>Processing:</strong> Quick approval, minimal paperwork</li>
+                        <li><strong>Eligibility:</strong> Businesses with stable turnover and inventory</li>
+                    </ul>
+                    <a href="#apply" class="btn btn-brand mt-3">Apply Now</a>
+                </div>
+                <div class="col-md-6 shadow-sm p-3 mb-5 bg-white rounded">
+                    <img src="../img/loans/cash credit.webp" alt="Cash Credit" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="mb-4">
+            <div class="card p-4">
+                <h3>Why Choose Cash Credit Facility?</h3>
+                <ul>
+                    <li>Revolving credit for ongoing business needs</li>
+                    <li>Interest charged only on amount used</li>
+                    <li>Easy renewal and top-up options</li>
+                    <li>Digital documentation and fast processing</li>
+                    <li>Dedicated support for your business</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="eligibility" class="mb-4">
+            <div class="card p-4">
+                <h3>Eligibility Criteria</h3>
+                <ul>
+                    <li>Indian businesses with minimum 2 years vintage</li>
+                    <li>Valid business registration and KYC documents</li>
+                    <li>Stable turnover and satisfactory credit profile</li>
+                    <li>Inventory and receivables as collateral</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="apply" class="mb-4">
+            <div class="card p-4">
+                <h3>Apply for Cash Credit Facility</h3>
+                <form action="https://formsubmit.co/ufirstloanz@gmail.com" method="POST">
+                <!-- Honeypot -->
+                    <input type="text" name="_honey" style="display:none">
+                 <!-- Disable Captcha -->
+                    <input type="hidden" name="_captcha" value="false" style="display:none">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Full Name / Business Name" name="full name" autocomplete="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="tel" class="form-control" placeholder="10 digit Contact Number" required name="Contact Number" pattern="[0-9]{10}" autocomplete="tel">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Email (optional)" name="email" autocomplete="email">
+                    </div>
+                    <div class="mb-3">
+                        <input type="address" class="form-control" placeholder="Address" name="Address" autocomplete="address">
+                    </div>
+                    <div class="mb-3">
+                        <select class="form-select" required name="CC Purpose">
+                            <option value="">Purpose</option>
+                            <option>Working Capital</option>
+                            <option>Inventory Purchase</option>
+                            <option>Receivables Management</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-brand" type="submit">Submit Application</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="faq" class="mb-4">
+            <div class="card p-4">
+                <h3>Frequently Asked Questions</h3>
+                <ul>
+                    <li><strong>What is cash credit?</strong> <br>A revolving credit facility for businesses to manage working capital needs.</li>
+                    <li><strong>Who can apply?</strong> <br>Businesses with stable turnover and inventory, meeting eligibility criteria.</li>
+                    <li><strong>How is interest calculated?</strong> <br>Interest is charged only on the amount utilized, not the entire limit.</li>
+                    <li><strong>Can I renew my cash credit?</strong> <br>Yes, renewal and top-up options are available.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <!-- floating button -->
+    <div class="floating-container">    
+      <a href="#"><button class="floating-button"><img src="/img/icons/up-arrows.png" alt=""></button></a>
+    </div>
+
+    <div id="footer"></div>
+    <div id="modal"></div>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/app.js"></script>
+    <script src="../js/seemore.blog.js"></script>
+    <script>
+      // Load header, footer, modal, dropdown dynamically
+      $(function(){
+        $("#topnav").load("top-nav.html");
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+        $("#modal").load("modal.html");
+        $("#dropdown").load("choose-product-dropdown.html");
+      });
+    </script>
+</body>
+</html>

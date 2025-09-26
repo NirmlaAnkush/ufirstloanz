@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/ufirstloaanz-icon" href="/ufirstloanz-icon.ico">
+
+    <!-- Bootstrap CSS & other styles -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Project Funding | U First Loan</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+
+    <div id="topnav" class="sticky-top"></div>
+    <div id="header"></div>
+    <div id="dropdown"></div>
+
+    <main class="container py-4">
+        <section class="mb-4">
+            <span class="pill">Project Funding</span>
+            <h2 class="mt-3 mb-3">Accelerate Your Projects with Custom Funding Solutions</h2>
+            <p class="lead">Get tailored funding for infrastructure, real estate, manufacturing, or service sector projects. Benefit from expert structuring, flexible terms, and quick approvals to ensure your project’s success.</p>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <ul>
+                        <li><strong>Funding Amount:</strong> ₹50 lakh and above</li>
+                        <li><strong>Tenure:</strong> Up to 15 years</li>
+                        <li><strong>Interest Rate:</strong> Competitive & project-based</li>
+                        <li><strong>Processing:</strong> Expert structuring, fast approval</li>
+                        <li><strong>Eligibility:</strong> Corporates, developers, entrepreneurs</li>
+                    </ul>
+                    <a href="#apply" class="btn btn-brand mt-3">Apply Now</a>
+                </div>
+                <div class="col-md-6 shadow p-3 mb-5 bg-white rounded">
+                    <img src="../img/loans/Project-Funding.webp" alt="Project Funding" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="mb-4">
+            <div class="card p-4">
+                <h3>Why Choose Project Funding?</h3>
+                <ul>
+                    <li>Custom funding structures for diverse projects</li>
+                    <li>Flexible repayment schedules</li>
+                    <li>End-to-end support from application to disbursal</li>
+                    <li>Transparent process and expert guidance</li>
+                    <li>Funding for infrastructure, real estate, manufacturing, and more</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="eligibility" class="mb-4">
+            <div class="card p-4">
+                <h3>Eligibility Criteria</h3>
+                <ul>
+                    <li>Indian corporates, developers, or entrepreneurs</li>
+                    <li>Clear project plan and financials</li>
+                    <li>Valid KYC and business documents</li>
+                    <li>Property or asset for collateral (if required)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="apply" class="mb-4">
+            <div class="card p-4">
+                <h3>Apply for Project Funding</h3>
+                <form action="https://formsubmit.co/ufirstloanz@gmail.com" method="POST">
+                <!-- Honeypot -->
+                    <input type="text" name="_honey" style="display:none">
+                 <!-- Disable Captcha -->
+                    <input type="hidden" name="_captcha" value="false" style="display:none">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Full Name / Company Name" name="name" autocomplete="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="tel" class="form-control" placeholder="10 digit Contact Number" required name="Contact Number" pattern="[0-9]{10}" autocomplete="tel">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Email (optional)" name="email" autocomplete="email">
+                    </div>
+                    <div class="mb-3">
+                        <input type="address" class="form-control" placeholder="Address" name="Address" autocomplete="address">
+                    </div>
+                    <div class="mb-3">
+                        <select class="form-select" name="project type" required>
+                            <option value="">Project Type</option>
+                            <option>Infrastructure</option>
+                            <option>Real Estate</option>
+                            <option>Manufacturing</option>
+                            <option>Service Sector</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-brand" type="submit">Submit Application</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="faq" class="mb-4">
+            <div class="card p-4">
+                <h3>Frequently Asked Questions</h3>
+                <ul>
+                    <li><strong>What is project funding?</strong> <br>Specialized loans or credit lines for large-scale projects in various sectors.</li>
+                    <li><strong>Who can apply?</strong> <br>Corporates, developers, and entrepreneurs with viable projects.</li>
+                    <li><strong>How much can I borrow?</strong> <br>Based on project size, viability, and collateral.</li>
+                    <li><strong>What documents are needed?</strong> <br>KYC, business proof, project plan, financials, and collateral documents (if required).</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <!-- floating button -->
+    <div class="floating-container">    
+      <a href="#"><button class="floating-button"><img src="/img/icons/up-arrows.png" alt=""></button></a>
+    </div>
+
+    <div id="footer"></div>
+    <div id="modal"></div>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/app.js"></script>
+    <script src="../js/seemore.blog.js"></script>
+    <script>
+      // Load header, footer, modal, dropdown dynamically
+      $(function(){
+        $("#topnav").load("top-nav.html");
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+        $("#modal").load("modal.html");
+        $("#dropdown").load("choose-product-dropdown.html");
+      });
+    </script>
+</body>
+</html>

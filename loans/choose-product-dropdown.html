@@ -1,0 +1,63 @@
+
+
+
+<div class="container my-2">
+  <div class="row justify-content-center align-items-center">
+    <div class="col-auto">
+      <select class="form-select form-select-sm" id="loanTypeSelect" style="width: 190px;">
+        <option value="">Choose Loan Type</option>
+        <option value="business">Business Loan</option>
+        <option value="term">Term Loan</option>
+        <option value="overdraft">Overdraft</option>
+        <option value="cash">Cash Credit</option>
+        <option value="dod">Dropline Overdraft</option>
+        <option value="machine">Machine Loan</option>
+        <option value="project">Project Loan</option>
+        <option value="personal">Personal Loan</option>
+        <option value="home">Home Loan</option>
+        <option value="lap">Loan Against Property</option>
+        <option value="govt">Govt-Backed Loan</option>
+        <option value="edu">Education Loan</option>
+      </select>
+    </div>
+    <div class="col-auto">
+      <button class="btn btn-sm btn-brand" id="goLoanType">Go</button>
+    </div>
+  </div>
+</div>
+<script>
+    document.getElementById('goLoanType').addEventListener('click', function() {
+    var select = document.getElementById('loanTypeSelect');
+    var value = select.value;
+    // Map dropdown values to HTML pages
+    if (value === 'business') {
+        window.location.href = 'business-loan.html';
+    } else if (value === 'term') {
+        window.location.href = 'term-loan.html';
+    } else if (value === 'overdraft') {
+        window.location.href = 'overdraft.html';
+    } else if (value === 'home') {
+        window.location.href = 'home-loan.html';
+    } else if (value === 'personal') {
+        window.location.href = 'personal-loan.html';
+    } else if (value === 'lap') {
+        window.location.href = 'loan-against-property.html';
+    } else if (value === 'machine') {
+        window.location.href = 'machine-loan.html';
+    } else if (value === 'personal') {
+        window.location.href = 'personal-loan.html';
+    } else if (value === 'project') {
+        window.location.href = 'project-loan.html';
+    } else if (value === 'govt') {
+        window.location.href = 'govt-loan.html';
+    } else if (value === 'cash') {
+        window.location.href = 'cash-credit.html';
+    } else if (value === 'dod') {
+        window.location.href = 'dod.html';
+    } else if (value === 'edu') {
+        window.location.href = 'education-loan.html';
+    } else {
+        alert('Please select a loan type.');
+    }
+});
+</script>
